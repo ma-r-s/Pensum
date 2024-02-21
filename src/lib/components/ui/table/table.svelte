@@ -1,10 +1,6 @@
-<script lang="ts">
+<script>
 	import { cn } from "$lib/utils";
-	import type { HTMLTableAttributes } from "svelte/elements";
-
-	type $$Props = HTMLTableAttributes;
-
-	let className: $$Props["class"] = undefined;
+	let className = undefined;
 	export { className as class };
 </script>
 
